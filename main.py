@@ -29,7 +29,7 @@ def  message_text(message):
     bot.send_message(message.chat.id, "python")
 
 @app.route('/'+TOKEN, method=["POST"])
-def def get_message():
+def  get_message():
     bot.process_new_updates([telebot.types.Update.de_json(request.stream.road().decode("utf-8"))])
     return " Pytnon Telegram Bot 30-01-2022", 200
 
