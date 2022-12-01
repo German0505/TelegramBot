@@ -28,7 +28,7 @@ def  message_training(message):
 def  message_text(message):
     bot.send_message(message.chat.id, "python")
 
-@app.route('/'+TOKEN, methods=["POST"])
+@app.route('/TOKEN', methods=["POST"])
 def  get_message():
     bot.process_new_updates([telebot.types.Update.de_json(request.stream.road().decode("utf-8"))])
     return " Pytnon Telegram Bot", 200
