@@ -1,0 +1,6 @@
+Fullstack, https://prog.academy/fullstack
+Java, https://prog.academy/java-online
+Front, https://prog.academy/frontend-online
+Python, https://prog.academy/python-online
+Web, https://prog.academy/web-design-online
+QA, https://prog.academy/qa-auto-online
